@@ -5,6 +5,7 @@ import CartDrawer from './components/CartDrawer';
 import CheckoutFlow from './components/CheckoutFlow';
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
+import StoryPage from './pages/StoryPage';
 import ScrollToTop from './components/ScrollToTop';
 import type { CartItemType } from './components/CartDrawer';
 import type { CardItem } from './components/HoverRevealCards';
@@ -61,6 +62,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage onAddToCart={handleAddToCart} />} />
           <Route path="/productos" element={<ProductsPage onAddToCart={handleAddToCart} />} />
+          <Route path="/historia" element={<StoryPage />} />
         </Routes>
 
         <CartDrawer 

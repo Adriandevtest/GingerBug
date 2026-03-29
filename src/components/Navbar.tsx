@@ -21,7 +21,7 @@ export default function Navbar({ cartCount, onOpenCart }: NavbarProps): React.JS
   const location = useLocation();
   const isHome = location.pathname === '/';
 
-  const links = ['Origen', 'Beneficios', 'Proceso', 'Productos'];
+  const links = ['Origen', 'Beneficios', 'Proceso', 'Historia', 'Productos'];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass-dark py-4' : 'bg-transparent py-6'}`}>
@@ -37,6 +37,15 @@ export default function Navbar({ cartCount, onOpenCart }: NavbarProps): React.JS
               <Link 
                 key={link} 
                 to="/productos" 
+                className="text-sm font-medium text-brand-beige hover:text-brand-pink transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                {link}
+              </Link>
+            ) : link === 'Historia' ? (
+              <Link 
+                key={link} 
+                to="/historia" 
                 className="text-sm font-medium text-brand-beige hover:text-brand-pink transition-colors"
                 onClick={() => setIsOpen(false)}
               >
@@ -111,6 +120,15 @@ export default function Navbar({ cartCount, onOpenCart }: NavbarProps): React.JS
                 <Link 
                   key={link} 
                   to="/productos" 
+                  className="text-lg font-medium text-white hover:text-brand-pink transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link}
+                </Link>
+              ) : link === 'Historia' ? (
+                <Link 
+                  key={link} 
+                  to="/historia" 
                   className="text-lg font-medium text-white hover:text-brand-pink transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
