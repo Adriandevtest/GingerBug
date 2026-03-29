@@ -59,10 +59,13 @@ export default function Hero() {
             Explorar Ahora
           </Link>
           
-          <button className="w-full sm:w-auto px-8 py-3 md:py-4 bg-white/10 backdrop-blur-md border border-white/40 text-white text-lg font-bold rounded-full hover:bg-white/20 transition-all flex items-center justify-center gap-3 group shadow-lg tracking-wide">
+          <Link 
+            to="/historia"
+            className="w-full sm:w-auto px-8 py-3 md:py-4 bg-white/10 backdrop-blur-md border border-white/40 text-white text-lg font-bold rounded-full hover:bg-white/20 transition-all flex items-center justify-center gap-3 group shadow-lg tracking-wide"
+          >
             Nuestra Historia 
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform" />
-          </button>
+          </Link>
         </motion.div>
         
       </div>
