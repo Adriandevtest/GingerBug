@@ -7,7 +7,7 @@ const gingerbugProducts: CardItem[] = [
     title: 'Jengibre + Jamaica',
     subtitle: '500 Mililitros - Antioxidante',
     imageUrl: '/images/catalogo/jamaica-Photoroom.png',
-    price: '$180',
+    price: '$50',
   },
   {
     id: 2,
