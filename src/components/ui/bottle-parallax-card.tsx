@@ -85,7 +85,7 @@ export function BottleParallaxCard({
             <div className="flex flex-col gap-4 mt-20">
               <div className="flex flex-col">
                 <span className="text-3xl font-black text-white">{price}</span>
-                <span className="text-[10px] text-brand-beige/40 font-bold uppercase tracking-widest">355ml • Naturalmente Fermentado</span>
+                <span className="text-[10px] text-brand-beige/40 font-bold uppercase tracking-widest">500ml • Naturalmente Fermentado</span>
               </div>
               
               <Button 
