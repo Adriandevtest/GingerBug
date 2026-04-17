@@ -41,6 +41,14 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       description: "Lo mejor del trópico en cada burbuja. La dulzura exótica del mango maduro se encuentra con el jengibre fermentado para un elixir vibrante y lleno de vida.",
       price: "$50",
       imageUrl: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?q=80&w=800&auto=format&fit=crop",
+    },
+    {
+      id: "limon-1",
+      title: "GingerBug Limón",
+      subtitle: "Limón Cítrico & Jengibre",
+      description: "Explosión cítrica balanceada. Limones seleccionados a mano para brindar una claridad refrescante y energía pura en cada burbuja.",
+      price: "$50",
+      imageUrl: "/gallery/limon.jpg",
     }
   ];
 
@@ -78,7 +86,7 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
           <div className="flex items-center gap-4">
              <div className="bg-white/5 border border-white/10 rounded-2xl px-6 py-4 flex items-center gap-3 backdrop-blur-md">
                 <Sparkles className="text-brand-pink" size={20} />
-                <span className="text-white font-bold tracking-tight">4 Sabores Disponibles</span>
+                <span className="text-white font-bold tracking-tight">5 Sabores Disponibles</span>
              </div>
              <button className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center text-white hover:bg-brand-pink transition-all">
                 <Filter size={20} />

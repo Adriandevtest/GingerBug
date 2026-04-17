@@ -30,6 +30,13 @@ const gingerbugProducts: CardItem[] = [
     imageUrl: 'https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?q=80&w=800&auto=format&fit=crop',
     price: '$50',
   },
+  {
+    id: 5,
+    title: 'Jengibre + Limón',
+    subtitle: '500 Mililitros - Cítrico & Refrescante',
+    imageUrl: '/gallery/limon.jpg',
+    price: '$50',
+  },
 ];
 
 interface ProductsCardsProps {
