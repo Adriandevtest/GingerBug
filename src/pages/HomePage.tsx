@@ -1,7 +1,7 @@
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Benefits from '../components/Benefits';
-import ProcessTimeline from '../components/ProcessTimeline';
+
 import ProductsCards from '../components/ProductsCards';
 import ScrollExpandMedia from '../components/ScrollExpandMedia';
 import FlavorsSection from '../components/FlavorsSection';
@@ -18,7 +18,7 @@ export default function HomePage({ onAddToCart }: HomePageProps) {
       <Hero />
       <About />
       <Benefits />
-      <ProcessTimeline />
+
       <ProductsCards onAddToCart={onAddToCart} />
       <ScrollExpandMedia
         mediaType="video"

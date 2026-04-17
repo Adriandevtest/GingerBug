@@ -21,7 +21,7 @@ export default function Navbar({ cartCount, onOpenCart }: NavbarProps): React.JS
   const location = useLocation();
   const isHome = location.pathname === '/';
 
-  const links = ['Origen', 'Beneficios', 'Proceso', 'Historia', 'Productos'];
+  const links = ['Origen', 'Beneficios', 'Historia', 'Productos'];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass-dark py-4' : 'bg-transparent py-6'}`}>
