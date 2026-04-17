@@ -24,7 +24,7 @@ export default function ContactSection() {
                         {
                             icon: PhoneIcon,
                             label: 'WhatsApp',
-                            value: '+52 934 102 3068',
+                            value: '+52 993 290 5660',
                         },
                         {
                             icon: MapPinIcon,

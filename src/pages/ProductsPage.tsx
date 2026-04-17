@@ -15,8 +15,8 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       title: "GingerBug Jamaica",
       subtitle: "Flor de Jamaica & Jengibre",
       description: "Nuestra mezcla insignia. Un vibrante elixir rojo profundamente antioxidante con el toque cítrico de la jamaica y el picante natural del jengibre.",
-      price: "$180",
-      imageUrl: "/gallery/jamaica.jpg",
+      price: "$50",
+      imageUrl: "/images/catalogo/jamaica-Photoroom.png",
     },
     {
       id: "pina-1",
@@ -24,7 +24,7 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       subtitle: "Piña Tropical & Jengibre",
       description: "Una explosión tropical refrescante. La dulzura natural de la piña se fusiona perfectamente con el picante del jengibre fermentado para una experiencia única.",
       price: "$50",
-      imageUrl: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=800&auto=format&fit=crop",
+      imageUrl: "/images/catalogo/bug-amarillo.png",
     },
     {
       id: "naranja-1",
@@ -32,7 +32,7 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       subtitle: "Naranja Cítrica & Jengibre",
       description: "La energía cítrica de la naranja fresca combinada con el jengibre vivo fermentado. Refrescante, vigorizante y lleno de vitamina C natural.",
       price: "$50",
-      imageUrl: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab12?q=80&w=800&auto=format&fit=crop",
+      imageUrl: "/images/catalogo/naranja-Photoroom.png",
     },
     {
       id: "mango-1",
@@ -40,7 +40,7 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       subtitle: "Mango Tropical & Jengibre",
       description: "Lo mejor del trópico en cada burbuja. La dulzura exótica del mango maduro se encuentra con el jengibre fermentado para un elixir vibrante y lleno de vida.",
       price: "$50",
-      imageUrl: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?q=80&w=800&auto=format&fit=crop",
+      imageUrl: "/images/catalogo/mango-Photoroom.png",
     },
     {
       id: "limon-1",
@@ -48,7 +48,7 @@ export default function ProductsPage({ onAddToCart }: ProductsPageProps) {
       subtitle: "Limón Cítrico & Jengibre",
       description: "Explosión cítrica balanceada. Limones seleccionados a mano para brindar una claridad refrescante y energía pura en cada burbuja.",
       price: "$50",
-      imageUrl: "/gallery/limon.jpg",
+      imageUrl: "/images/catalogo/limon-Photoroom.png",
     }
   ];
 

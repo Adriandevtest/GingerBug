@@ -81,7 +81,7 @@ export default function FooterCTA() {
                <div className="mb-6 md:mb-0">
                   <SocialTooltip items={[
                     {
-                      href: "https://instagram.com",
+                      href: "https://www.instagram.com/bichito_de_jengibre?utm_source=qr&igsh=eXV1N2FtYjk4dTBx",
                       ariaLabel: "Instagram",
                       tooltip: "Instagram",
                       color: "#E1306C",

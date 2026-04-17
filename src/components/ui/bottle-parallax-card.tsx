@@ -73,7 +73,7 @@ export function BottleParallaxCard({
         <div className="absolute -inset-2 bg-gradient-to-r from-brand-pink/20 to-brand-red/20 rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
         {/* Card Body */}
-        <Card className="relative z-10 rounded-[2rem] border-white/10 bg-black/40 backdrop-blur-xl p-2 overflow-hidden shadow-2xl">
+        <Card className="relative z-10 rounded-[2rem] border-white/10 bg-brand-black backdrop-blur-xl p-2 overflow-hidden shadow-2xl">
           <div className="absolute top-0 right-0 w-32 h-32 bg-brand-pink/10 blur-3xl rounded-full translate-x-10 -translate-y-10" />
           
           <CardHeader className="pt-8 px-6 pb-2">
@@ -110,7 +110,7 @@ export function BottleParallaxCard({
           <motion.img
             src={imageUrl}
             alt={title}
-            className="w-full h-full object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.5)] bounce-premium mix-blend-screen"
+            className="w-full h-full object-contain bounce-premium mix-blend-screen"
             whileHover={{ scale: 1.1 }}
           />
         </motion.div>
